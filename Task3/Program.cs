@@ -1,18 +1,20 @@
 ﻿// --- Task 3 Demonstration: Polymorphism ---
+using OOPAssignment;
+
 Console.WriteLine("\n\n--- Task 3A: Polymorphism (Method Overloading) ---");
 var printer = new Printer();
-[cite_start]// Call all of these methods [cite: 36]
+// Call all of these methods [cite: 36]
 printer.Print("Hello World");
 printer.Print(42);
 printer.Print("Assignment Due", 3);
 
 
 Console.WriteLine("\n--- Task 3B: Polymorphism (Method Overriding) ---");
-[cite_start]// Create objects of derived classes [cite: 50]
+// Create objects of derived classes [cite: 50]
 var nepaliTeacher = new NepaliTeacher("Bikram P.");
 var englishTeacher = new EnglishTeacher("Sarah K.");
 
-[cite_start]// Call all its methods [cite: 50]
+// Call all its methods [cite: 50]
 Console.WriteLine($"\n{nepaliTeacher.Name}:");
 nepaliTeacher.Teaching(); // Calls overridden method
 nepaliTeacher.SalaryInfo(); // Calls sealed base method

@@ -15,7 +15,7 @@ namespace OOPAssignment
             Console.WriteLine($"Printing number: {number}");
         }
 
-        [cite_start]// Overloaded Method 3: Print(string message, int count) [cite: 35]
+        // Overloaded Method 3: Print(string message, int count) [cite: 35]
         public void Print(string message, int count)
         {
             Console.WriteLine($"Printing message '{message}' {count} times:");
