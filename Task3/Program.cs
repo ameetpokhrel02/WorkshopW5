@@ -7,7 +7,7 @@ printer.Print(42);
 printer.Print("Assignment Due", 3);
 
 
-Console.WriteLine("\n--- Task 3B: Polymorphism (Method Overriding) ---");
+Console.WriteLine();
 // Create objects of derived classes 
 var nepaliTeacher = new NepaliTeacher("Kushal T.");
 var englishTeacher = new EnglishTeacher("Nikesh R.");

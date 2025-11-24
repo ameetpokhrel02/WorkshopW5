@@ -1,19 +1,19 @@
-// Part A: Method Overloading (Compile-Time Polymorphism) 
+// Part A: Method Overloading 
     public class Printer
     {
-        // Overloaded Method 1: Print(string message) 
+        // Overloaded Method 1
         public void Print(string message)
         {
             Console.WriteLine($"Printing message: {message}");
         }
 
-        // Overloaded Method 2: Print(int number) 
+        // Overloaded Method 2
         public void Print(int number)
         {
             Console.WriteLine($"Printing number: {number}");
         }
 
-        // Overloaded Method 3: Print(string message, int count)
+        // Overloaded Method 3
         public void Print(string message, int count)
         {
             Console.WriteLine($"Printing message '{message}' {count} times:");

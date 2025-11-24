@@ -5,7 +5,7 @@ using System.Collections.Generic;
 // Task 2 Demonstration
 Console.WriteLine();
 
-// Create objects of both derived classes [cite: 26]
+// Create objects of both derived classes
 var myCar = new Car("Honda", 180, 5);
 var myMotorcycle = new Motorcycle("Yamaha", 220, false);
 

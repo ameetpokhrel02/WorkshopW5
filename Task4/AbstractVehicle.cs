@@ -1,22 +1,22 @@
 
-    // Abstract Class [cite: 57]
+    // Abstract Class 
     public abstract class AbstractVehicle
     {
-        // Abstract methods must be implemented by derived classes [cite: 58]
+        // Abstract methods must be implemented by derived classes 
         public abstract void StartEngine();
         public abstract void StopEngine();
 
-        // Concrete method (shared implementation) [cite: 59]
+        // Concrete method
         public void Display()
         {
             Console.WriteLine("This is a vehicle.");
         }
     }
 
-    // Derived Class 1: Car [cite: 60]
+    // Derived Class 1
     public class Car : AbstractVehicle
     {
-        // Implement abstract methods [cite: 61, 62]
+        // Implement abstract methods
         public override void StartEngine()
         {
             Console.WriteLine("Car engine started with ignition key.");
@@ -28,10 +28,10 @@
         }
     }
 
-    // Derived Class 2: Bike [cite: 60]
+    // Derived Class 2:
     public class Bike : AbstractVehicle
     {
-        // Implement abstract methods [cite: 61, 62]
+        // Implement abstract methods
         public override void StartEngine()
         {
             Console.WriteLine("Bike engine started with a kick-start.");

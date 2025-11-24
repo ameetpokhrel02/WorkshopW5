@@ -23,7 +23,7 @@ namespace OOPAssignment
             Console.WriteLine($"{Brand} is stopping.");
         }
 
-        // Virtual method for Polymorphism (Overriding)
+        // Virtual method for Polymorphism
         public virtual void DisplayInfo()
         {
             Console.WriteLine($"--- Vehicle Info ---");
@@ -31,7 +31,7 @@ namespace OOPAssignment
         }
     }
 
-    // Derived Class 1: Car (Inherits from Vehicle)
+    // Derived Class 1: Car 
     public class Car : Vehicle
     {
         // Unique property for Car
