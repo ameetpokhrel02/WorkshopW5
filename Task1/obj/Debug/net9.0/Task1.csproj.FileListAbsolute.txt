@@ -12,3 +12,4 @@
 /home/amit/Documents/Dotnetproject/Workshop5/Task1/obj/Debug/net9.0/Task1.pdb
 /home/amit/Documents/Dotnetproject/Workshop5/Task1/obj/Debug/net9.0/Task1.genruntimeconfig.cache
 /home/amit/Documents/Dotnetproject/Workshop5/Task1/obj/Debug/net9.0/ref/Task1.dll
+/home/amit/Documents/Dotnetproject/Workshop5/Task1/obj/Debug/net9.0/Task1.sourcelink.json

@@ -1,0 +1,9 @@
+Workshop5.sln
+**/bin/
+**/obj/
+*.user
+*.suo
+*.log
+.idea/
+.vs/
+
