@@ -1,6 +1,4 @@
-namespace OOPAssignment
-{
-    public class Teacher
+public class Teacher
     {
         public string Name { get; set; }
 
@@ -14,8 +12,7 @@ namespace OOPAssignment
         {
             Console.WriteLine($"{Name} teaches in English.");
         }
-
-        // FIX: Removed 'sealed'. Since this method is not 'virtual', 
+        
         // it cannot be overridden, achieving the intended effect without the keyword.
         public void SalaryInfo()
         {
@@ -37,4 +34,3 @@ namespace OOPAssignment
     {
         public EnglishTeacher(string name) : base(name) { }
     }
-}

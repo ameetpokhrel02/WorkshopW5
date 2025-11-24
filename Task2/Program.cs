@@ -1,14 +1,22 @@
-﻿Console.WriteLine("\n--- Task 4: Abstraction (Abstract Vehicle Hierarchy) ---");
+﻿using OOPAssignment;
+using System;
+using System.Collections.Generic; 
+// ... all the task execution code follows ...
+// Task 2 Demonstration
+Console.WriteLine();
 
-AbstractVehicle abstractCar = new Car("BMW", 240, 4); 
-AbstractVehicle abstractBike = new Motorcycle("Harley", 160, true);
+// Create objects of both derived classes [cite: 26]
+var myCar = new Car("Honda", 180, 5);
+var myMotorcycle = new Motorcycle("Yamaha", 220, false);
 
-Console.WriteLine("\n--- Abstract Car Actions ---");
-abstractCar.Display();
-abstractCar.StartEngine();
-abstractCar.StopEngine();
+Console.WriteLine();
+// Call the methods of base class 
+myCar.Start();
+myCar.DisplayInfo();
+myCar.Stop();
 
-Console.WriteLine("\n--- Abstract Bike Actions ---");
-abstractBike.Display();
-abstractBike.StartEngine();
-abstractBike.StopEngine();
+Console.WriteLine();
+// Call the methods of base class 
+myMotorcycle.Start();
+myMotorcycle.DisplayInfo();
+myMotorcycle.Stop();

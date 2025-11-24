@@ -3,6 +3,7 @@ namespace OOPAssignment
     // Base Class: Vehicle
     public class Vehicle
     {
+        // Auto-Implemented Properties (Encapsulation shortcut)
         public string Brand { get; set; }
         public int Speed { get; set; }
 
@@ -22,6 +23,7 @@ namespace OOPAssignment
             Console.WriteLine($"{Brand} is stopping.");
         }
 
+        // Virtual method for Polymorphism (Overriding)
         public virtual void DisplayInfo()
         {
             Console.WriteLine($"--- Vehicle Info ---");
@@ -29,9 +31,10 @@ namespace OOPAssignment
         }
     }
 
-    // Derived Class 1: Car
+    // Derived Class 1: Car (Inherits from Vehicle)
     public class Car : Vehicle
     {
+        // Unique property for Car
         public int Seats { get; set; }
 
         public Car(string brand, int speed, int seats) : base(brand, speed)
@@ -39,6 +42,7 @@ namespace OOPAssignment
             Seats = seats;
         }
 
+        // Override DisplayInfo to include unique field
         public override void DisplayInfo()
         {
             base.DisplayInfo();
@@ -46,9 +50,10 @@ namespace OOPAssignment
         }
     }
 
-    // Derived Class 2: Motorcycle
+    // Derived Class 2: Motorcycle (Inherits from Vehicle)
     public class Motorcycle : Vehicle
     {
+        // Unique property for Motorcycle
         public bool HasSideCar { get; set; }
 
         public Motorcycle(string brand, int speed, bool hasSideCar) : base(brand, speed)
@@ -56,6 +61,7 @@ namespace OOPAssignment
             HasSideCar = hasSideCar;
         }
 
+        // Override DisplayInfo to include unique field
         public override void DisplayInfo()
         {
             base.DisplayInfo();

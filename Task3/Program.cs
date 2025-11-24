@@ -1,6 +1,4 @@
 ﻿//Task 3 Demonstration: Polymorphism
-using OOPAssignment;
-
 Console.WriteLine();
 var printer = new Printer();
 // Call all of these methods 
