@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("\n--- Task 2: Inheritance (Vehicle Hierarchy) ---");
 
-var myCar = new Car("Honda", 180, 5);
-var myMotorcycle = new Motorcycle("Yamaha", 220, false);
+var myCar = new OOPAssignment.Car("Honda", 180, 5);
+var myMotorcycle = new OOPAssignment.Motorcycle("Yamaha", 220, false);
 
 Console.WriteLine("\n--- Car Actions ---");
 myCar.Start();
