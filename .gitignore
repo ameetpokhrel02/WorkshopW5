@@ -1,9 +1,9 @@
-Workshop5.sln
-**/bin/
-**/obj/
-*.user
-*.suo
-*.log
-.idea/
-.vs/
+# Ignore bin and obj folders
+bin/
+obj/
 
+# Ignore IDE folders
+.idea/
+
+# Ignore Visual Studio solution files
+*.sln
