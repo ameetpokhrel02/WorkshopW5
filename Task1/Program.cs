@@ -1,18 +1,10 @@
-﻿// Use this line to allow Program.cs to find classes like BankAccount, Car, etc.
-using OOPAssignment;
-using System; 
-// Using Top-Level Statements for simplicity (as per Week 2 slides).
-
-Console.WriteLine("--- Assignment 5 Solution ---");
-
-// --- Task 1 Demonstration (Paste the Task 1 code here) ---
-Console.WriteLine("--- Task 1: Encapsulation (BankAccount) ---");
+﻿//Task 1 Demonstration
+Console.WriteLine();
 try
 {
     // Create an object of bank Account
     var account = new BankAccount(accountNumber: 123456, initialBalance: 500.00);
-
-    // ... rest of the Task 1 code ...
+    
     Console.WriteLine($"Account Created: #{account.AccountNumber}");
     Console.WriteLine($"Initial Balance: {account.Balance:C}");
 
@@ -22,7 +14,7 @@ try
     // Withdraw the money
     account.Withdraw(100.00);
 
-    // Attempt invalid operations (demonstrates encapsulation)
+    // Attempt invalid operations 
     account.Withdraw(1000.00); 
     account.Deposit(-50.00);   
 
@@ -31,10 +23,6 @@ try
 }
 catch (Exception ex)
 {
-    // Basic error handling as per Week 3 slides
+    // Basic error handling 
     Console.WriteLine($"An unexpected error occurred in Task 1: {ex.Message}");
 }
-
-
-// --- Task 2 Demonstration (Paste the Task 2 code here) ---
-/* ... all other task code goes here ... */

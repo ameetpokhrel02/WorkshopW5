@@ -1,6 +1,4 @@
-namespace OOPAssignment
-{
-    public class BankAccount
+public class BankAccount
     {
         private readonly int accountNumber;
         private double balance;
@@ -53,4 +51,3 @@ namespace OOPAssignment
             }
         }
     }
-}
