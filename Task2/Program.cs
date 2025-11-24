@@ -1,14 +1,14 @@
-﻿Console.WriteLine("\n--- Task 2: Inheritance (Vehicle Hierarchy) ---");
+﻿Console.WriteLine("\n--- Task 4: Abstraction (Abstract Vehicle Hierarchy) ---");
 
-var myCar = new OOPAssignment.Car("Honda", 180, 5);
-var myMotorcycle = new OOPAssignment.Motorcycle("Yamaha", 220, false);
+AbstractVehicle abstractCar = new Car("BMW", 240, 4); 
+AbstractVehicle abstractBike = new Motorcycle("Harley", 160, true);
 
-Console.WriteLine("\n--- Car Actions ---");
-myCar.Start();
-myCar.DisplayInfo();
-myCar.Stop();
+Console.WriteLine("\n--- Abstract Car Actions ---");
+abstractCar.Display();
+abstractCar.StartEngine();
+abstractCar.StopEngine();
 
-Console.WriteLine("\n--- Motorcycle Actions ---");
-myMotorcycle.Start();
-myMotorcycle.DisplayInfo();
-myMotorcycle.Stop();
+Console.WriteLine("\n--- Abstract Bike Actions ---");
+abstractBike.Display();
+abstractBike.StartEngine();
+abstractBike.StopEngine();
